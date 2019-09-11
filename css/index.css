@@ -1,3 +1,248 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* Use your own code or past 
+solution for Great Idea Web Page 
+CSS here! */
+
+html, body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+	margin-top: 3%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 14px;
+	color: grey;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+.cta {
+	display:flex;
+	align-items: center;
+	font-size: 50px;
+	justify-content: space-evenly;
+}
+
+section.cta {
+    padding-bottom: 8%;
+    border-bottom: 1px solid black;
+}
+.cta .cta-text {
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	vertical-align: top;
+	text-align: center;
+} 
+
+.cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+	width: 60%;
+	text-align: center;
+	padding: 8px 44px;
+	margin: 0px 70px;
+}
+
+.cta .cta-text button:hover {
+	background: black;
+	color: white;
+}
+
+.cta img {
+	margin-top: 69px;
+}
+
+.top-content {
+	display: flex;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 5px;
+	border-bottom: 1px solid black;
+}
+
+.borderLine {
+	border-bottom: 1px solid black;
+}
+
+.servicesContainer {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.column1 {
+	width: 50%;
+}
+
+.column2 {
+	width: 50%;	
+}
+
+.mainContent {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	background-color: #D6CDCD;
+	padding: 30px;
+	margin: 20px;
+}
+
+.text-content {
+    padding: 5%;
+}
+
+.buttClass {
+	background: white;
+	vertical-align: top;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 2px;
+}
+
+.headFooter {
+	display: flex;
+	flex-wrap: flex;
+	padding-top: 20px;
+	border-top: 2px solid black;
+}
+
+.services-info-img {
+	align-self: baseline;
+	width: 400px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+img.tablet-modeimg {
+    display: none;
+}
+
+img.imgcirclecode {
+    margin-top: 3%;
+}
+
+img.middle-img {
+    width: 100%;
+}
+
+footer.indexfoot {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact {
+    padding-left: 5%;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .imgcirclecode {
+        display: none;
+    }
+    img.logo {
+        display: none;
+    }
+    img.tablet-modeimg {
+        display: flex;
+        margin: auto;
+        padding-bottom: 3%;
+        padding-top: 2%;
+    }
+    img.middle-img {
+        width: 100%;
+    }
+    .bottom-content {
+        justify-content: space-between;
+    }
+    .text-content {
+        padding: 4%;
+    }
+    h1 {
+        padding-bottom: 10%;
+        margin-bottom: 0;
+        margin-top: 8%;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    header nav{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    a {
+        margin: auto;
+        padding: 5%;
+    }
+    div.mobiletabs {
+        display: flex;
+        border-top: 1px solid grey;
+    }
+    div.lastdiv {
+        border-bottom: 1px solid grey;
+    }
+    img.tablet-modeimg {
+        padding-bottom: 5%;
+    }
+    section.cta {
+        padding-bottom: 15%;
+    }
+    .top-content {
+        flex-direction: column;
+    }
+    .bottom-content {
+        flex-direction: column;
+    }
+    div.text-content {
+        padding-top: 6%;
+        padding-bottom: 3%;
+    }
+    h1 {
+        margin-top: 17%;
+    }
+}
+
+
+
+
 
 
